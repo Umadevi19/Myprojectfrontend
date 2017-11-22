@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Briscola Game</string>
+    <string name="app_button1">About Game</string>
+    <string name="app_button2">Lets Start</string>
+    <string name="app_text">Welcome To Briscola Game</string>
+
+</resources>

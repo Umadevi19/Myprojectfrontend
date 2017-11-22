@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_light"
+    tools:context="com.example.umadevi.briscolagame.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/app_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/app_button1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="fill_vertical|center_horizontal"
+        android:text="@string/app_button2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:textAllCaps="false"/>
+</LinearLayout>
+
